@@ -1,0 +1,127 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysShowNotificationIcon": false,
+    "alwaysShowTabs": true,
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "tabWidthMode": "equal",
+    "tabSwitcherMode": "inOrder",
+    "useAcrylicInTabRow": true,
+    "disableAnimations": false,
+    "theme": "dark",
+    "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+    "firstWindowPreference": "defaultProfile",
+    "keybindings": [
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "language": "en-US",
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "adjustIndistinguishableColors": "always",
+            "colorScheme": "Sonokai Shusia",
+            "cursorShape": "bar",
+            "font": {
+                // "face": "UbuntuMono Nerd Font",
+                "face": "MesloLGM Nerd Font",
+                "size": 12,
+                "weight": "medium"
+            },
+            "historySize": 9001,
+            "opacity": 85,
+            "padding": "15",
+            "useAcrylic": true
+        },
+        "list": [
+            {
+                "commandline": "powershell.exe -NoLogo",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "icon": "\u26a1",
+                "name": "PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "icon": "\ud83d\udcbb",
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "icon": "ms-appx:///ProfileIcons/git.png",
+                "source": "Git",
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": "⚡ Git Bash",
+                "backgroundImage": "https://img.freepik.com/free-photo/8-bit-graphics-pixels-scene-with-airport_23-2151121003.jpg?semt=ais_hybrid&w=740&q=80",
+                "backgroundImageOpacity": 0.08,
+                "backgroundImageStretchMode": "uniformToFill"
+            },
+            {
+                "guid": "{b48ff2bd-5890-5335-a4f2-017c6ed3e979}",
+                "hidden": false,
+                "name": "VS 2022 Pro",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{e81c90ec-841a-5726-a1f3-8e1afb2e1800}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{4be87b86-f180-579f-ba3d-a55947fdf40a}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#1F222D",
+            "black": "#1A181A",
+            "blue": "#1080D0",
+            "brightBlack": "#707070",
+            "brightBlue": "#22D5FF",
+            "brightCyan": "#7ACCD7",
+            "brightGreen": "#A4CD7C",
+            "brightPurple": "#AB9DF2",
+            "brightRed": "#F882A5",
+            "brightWhite": "#E3E1E4",
+            "brightYellow": "#E5D37E",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3AA5D0",
+            "foreground": "#E3E1E4",
+            "green": "#7FCD2B",
+            "name": "Sonokai Shusia",
+            "purple": "#7C63F2",
+            "red": "#F82F66",
+            "selectionBackground": "#403E41",
+            "white": "#E3E1E4",
+            "yellow": "#E5DE2D"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "themes": [],
+    "windowingBehavior": "useExisting"
+}
